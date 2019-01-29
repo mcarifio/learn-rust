@@ -1,0 +1,17 @@
+# C extensions
+*.so
+
+# ignore compressed files
+*.xz
+*.gz
+.tar
+
+# ignore cache directories
+*_cache
+
+# ignore package lock files
+*.lock
+
+
+/target
+**/*.rs.bk
